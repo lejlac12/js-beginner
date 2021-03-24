@@ -1,8 +1,8 @@
-let hour = 20;
+let month = 6;
 
-if (hour >= 6 && hour < 12)
-    console.log('jutro');
-else if (hour >= 12 && hour < 18)
-    console.log('podne');
+if (month >= 4 && month < 7)
+    console.log('maj');
+else if (month >= 8 && month < 2)
+    console.log('januar');
 else
-    console.log('vecer');
+    console.log('februar');
